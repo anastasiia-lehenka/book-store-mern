@@ -1,0 +1,24 @@
+@import '../../variables';
+
+.search {
+  width: 250px;
+  margin: 0 auto 20px;
+
+  @media (min-width: 550px) {
+    margin: 0 10px 0 0;
+  }
+}
+
+.search__input,
+.search__button {
+  &:focus {
+    border-color: $light !important;
+    box-shadow: none !important;
+    outline: none !important;
+  }
+}
+
+.search__button {
+  border-right: 0 !important;
+  border-color: $light !important;
+}

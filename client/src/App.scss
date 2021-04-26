@@ -1,0 +1,21 @@
+@import '~bootstrap/scss/bootstrap';
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    color: inherit;
+  }
+}
+
+.wrapper {
+  min-width: 360px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

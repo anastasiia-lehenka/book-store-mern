@@ -1,0 +1,19 @@
+.purchase-button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 40px;
+}
+
+.empty-cart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: calc(100vh - 182px);
+  min-height: 200px;
+}
+
+.cart-icon {
+  font-size: 60px;
+  margin-bottom: 30px;
+}

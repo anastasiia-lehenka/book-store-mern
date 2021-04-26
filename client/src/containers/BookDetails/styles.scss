@@ -1,0 +1,59 @@
+@import '../../variables';
+
+.book-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: 680px) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+  }
+}
+
+.book-info {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+
+  @media (min-width: 1000px) {
+    flex-direction: row;
+    text-align: left;
+  }
+}
+
+.book-info__col {
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.book-info__image {
+  display: block;
+  min-width: 150px;
+  max-width: 100%;
+  margin: 0 auto 30px;
+}
+
+.book-buy {
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid $light;
+}
+
+.book-add-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.book-count-select {
+  &:focus {
+    border-color: $light !important;
+    box-shadow: none !important;
+    outline: none !important;
+  }
+}

@@ -1,0 +1,21 @@
+@import '../../variables';
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  margin: 0 auto;
+
+  @media (min-width: 550px) {
+    margin: 0;
+  }
+}
+
+.filter__dropdown {
+  &:focus {
+    border-color: $light !important;
+    box-shadow: none !important;
+    outline: none !important;
+  }
+}

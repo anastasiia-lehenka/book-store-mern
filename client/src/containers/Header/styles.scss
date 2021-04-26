@@ -1,0 +1,26 @@
+@import '../../variables';
+
+.header__auth-data {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.header__bordered {
+  min-width: 360px;
+  border-top: 1px solid $light;
+  border-bottom: 1px solid $light;
+}
+
+.header__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.header__cart-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}

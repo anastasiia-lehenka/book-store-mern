@@ -1,0 +1,26 @@
+.filters {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 550px;
+  margin-bottom: 30px;
+
+  @media (min-width: 550px) {
+    flex-direction: row;
+  }
+}
+
+.books-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  grid-gap: 5px;
+  justify-content: center;
+
+  @media (min-width: 550px) {
+    justify-content: space-around;
+  }
+
+  @media (min-width: 830px) {
+    justify-content: space-between;
+  }
+}
